@@ -1,0 +1,29 @@
+.Register-pag{
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 300px;
+    margin-left: 42%;
+    border-color: black;
+    box-shadow: 10px;
+}
+
+.Logo{
+    max-width: 150px;
+    height: auto;
+  }
+
+.Txt-register{
+    text-align: center;
+    color: white;
+}
+
+.btb-submit{
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.login{
+    margin-top: 10px;
+    border-radius: 5px;
+}

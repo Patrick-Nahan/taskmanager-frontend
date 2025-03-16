@@ -1,0 +1,30 @@
+
+.Form-Login{
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  height: 300px;
+  width: 300px;
+  margin-left: 42%;
+  border-color: black;
+  box-shadow: 10px;
+
+}
+body{
+background-color: rgba(0, 60, 255, 0.699);
+}
+.Txt-Login{
+  text-align: center;
+  color: white;
+}
+.Logo{
+  max-width: 150px;
+  height: auto;
+}
+.btb-submit{
+  border-radius: 5px;
+
+}
+.create-account{
+  border-radius: 5px;
+}
