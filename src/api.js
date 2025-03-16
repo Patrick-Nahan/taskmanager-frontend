@@ -1,7 +1,7 @@
 // src/api.js
 import axios from 'axios';
 
-const API_URL = "https://yourtaskmanager-gtf8e9e9arfvdtgz.brazilsouth-01.azurewebsites.net/api"; // Altere conforme o seu backend
+const API_URL = "https://yourtaskmanager-gtf8e9e9arfvdtgz.brazilsouth-01.azurewebsites.net/api/Auth/register"; // Altere conforme o seu backend
 
 // Função para registrar o usuário
 export const registerUser = async (userData) => {
