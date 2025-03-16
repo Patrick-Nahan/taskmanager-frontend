@@ -1,7 +1,7 @@
 // src/api.js
 import axios from 'axios';
 
-const API_URL = "https://localhost:7100/api/auth"; // Altere conforme o seu backend
+const API_URL = "https://yourtaskmanager-gtf8e9e9arfvdtgz.brazilsouth-01.azurewebsites.net/api"; // Altere conforme o seu backend
 
 // Função para registrar o usuário
 export const registerUser = async (userData) => {
@@ -15,7 +15,7 @@ export const registerUser = async (userData) => {
 };
 
 // Se você também tem outras funções, como createTask, deleteTask, etc, elas devem estar aqui também.
-export const createTask = (task) => axios.post("https://localhost:7100/api/Task", task);
-export const getTasks = () => axios.get("https://localhost:7100/api/Task");
-export const updateTask = (id, task) => axios.put(`https://localhost:7100/api/Task/${id}`, task);
-export const deleteTask = (id) => axios.delete(`https://localhost:7100/api/Task/${id}`);
+export const createTask = (task) => axios.post("https://yourtaskmanager-gtf8e9e9arfvdtgz.brazilsouth-01.azurewebsites.net/api/Task", task);
+export const getTasks = () => axios.get("https://yourtaskmanager-gtf8e9e9arfvdtgz.brazilsouth-01.azurewebsites.net/api/Task");
+export const updateTask = (id, task) => axios.put(`https://yourtaskmanager-gtf8e9e9arfvdtgz.brazilsouth-01.azurewebsites.net/api/Task/${id}`, task);
+export const deleteTask = (id) => axios.delete(`https://yourtaskmanager-gtf8e9e9arfvdtgz.brazilsouth-01.azurewebsites.net/api/Task/${id}`);
